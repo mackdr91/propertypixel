@@ -1,10 +1,14 @@
+import Hero from "@/components/Hero";
+import CardGrid from "@/components/CardGrid";
+import About from "@/components/About";
+import Services from "@/components/Services";
 
+const HomePage = () => (<div>
+    <Hero />
+    <About />
+    <Services />
+   
 
-const HomePage = () => {
-
-    return ( <div>
-        <h1>Home Page</h1>
-    </div> );
-}
+</div>)
 
 export default HomePage;
