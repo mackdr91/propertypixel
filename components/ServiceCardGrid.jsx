@@ -1,9 +1,10 @@
 import Card from "./Card";
 
-const CardGrid = () => {
+const ServiceCardGrid = () => {
   return (
     <section>
-      <div class="container-xl lg:container m-auto">
+      <div class="container-xl lg:container m-auto mt-0">
+        <h2 class="text-3xl font-bold mb-4">Our Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
           <Card
             heading="Custom Website Design and Development"
@@ -103,4 +104,4 @@ const CardGrid = () => {
   );
 };
 
-export default CardGrid;
+export default ServiceCardGrid;

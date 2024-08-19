@@ -1,13 +1,17 @@
 import Hero from "@/components/Hero";
-import CardGrid from "@/components/CardGrid";
 import About from "@/components/About";
-import Services from "@/components/Services";
+import ServiceCardGrid from "@/components/ServiceCardGrid";
+import HowItWorks from "@/components/HowItWorks";
+import Contact from "@/components/Contact";
 
 const HomePage = () => (<div>
     <Hero />
     <About />
-    <Services />
-   
+    <ServiceCardGrid />
+    <Contact />
+    <HowItWorks />
+
+
 
 </div>)
 
